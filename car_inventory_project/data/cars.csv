@@ -1,0 +1,7 @@
+type,make,model,hp,num_seats,max_kmh,year,license_plate
+Car,Audi,A4,190,5,240,2019,B-AB1234
+Truck,MAN,TGX,350,2,160,2015,B-XY4321
+Motorbike,BMW,R1200,125,2,220,2020,M-BW2020
+Car,Tesla,Model 3,283,5,261,2022,E-TM333
+Truck,Mercedes,Actros,320,2,140,2018,B-MA8888
+

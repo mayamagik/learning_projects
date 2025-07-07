@@ -1,0 +1,12 @@
+body {
+    font-size: large;
+    font-family: monospace;
+    text-align: left;
+}
+
+#myText {
+    font-size: 3m;
+    padding: 5px 25px;
+    border-radius: 5px;
+
+}
