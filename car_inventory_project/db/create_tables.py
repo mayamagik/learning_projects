@@ -1,13 +1,9 @@
 # db/create_tables.py
 
 import sqlite3
-import os
+from config import DB_PATH  
 
-# Get directory of the current script
-base_dir = os.path.dirname(__file__)
-db_path = os.path.join(base_dir, "vehicle_fleet.db")
-
-conn = sqlite3.connect(db_path)
+conn = sqlite3.connect(DB_PATH)
 cursor = conn.cursor()
 
 cursor.execute("""

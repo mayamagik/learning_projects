@@ -1,8 +1,8 @@
 # db/data_access.py
 
 import sqlite3
+from config import DB_PATH  
 
-DB_PATH = "db/vehicle_fleet.db"
 
 def insert_vehicle(type_, make, model, hp, num_seats, max_kmh, year, license_plate):
     conn = sqlite3.connect(DB_PATH)
